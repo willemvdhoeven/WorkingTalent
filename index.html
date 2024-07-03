@@ -70,17 +70,14 @@
     </table>
 
 
+    <!-- Links-->
+    <a href= "https://www.nu.nl/" > NU  </a>
+    <a href= "https://nos.nl/" > NOS  </a>
 
     <input type="text" id="new-color">
     <button type = "button" onclick="readColor();">
         Change
     </button>
-
-
-
-    <!-- Links-->
-    <a href= "https://www.nu.nl/" > NU  </a>
-    <a href= "https://nos.nl/" > NOS  </a>
 
     <!-- Functies-->>
     <script>
@@ -92,7 +89,7 @@
             document.getElementById("table1").style.backgroundColor = kleurtje
         }; 
 
-        function readColor{
+        function readColor() {
             let color = document.getElementById("new-color").value;
             changeBackgroundColor(color)
         };
